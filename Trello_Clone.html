@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trello_Clone</title>
+    <link rel="stylesheet" href="./Trello_Clone.css" />
+    <script src="./Trello_Clone.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Trello</h1>
+    </header>
+
+    <section>
+      <h2>Add New Board...</h2>
+    </section>
+
+    <main>
+      <div class="lists"></div>
+
+      <div id="addList">
+        <button id="btn-add" type="submit" onclick="addNewList()">
+          + Add a list...
+        </button>
+
+        <div class="hidden">
+          <input id="listName" type="text" placeholder="Enter List Title..." />
+          <button class="addList-btn" onclick="addList()">Add list</button>
+          <a href="#" onclick="cancelAddList()">X</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
