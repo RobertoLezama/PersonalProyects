@@ -12,7 +12,10 @@ body {
   display: flex;
   padding: 0;
   margin: 0;
-  background-color: #0079bf;
+  background-image: url(./Smoky-Mountain-Wallpaper-Free-HD-Images-for-Download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: #0079bf;*/
   font-family: Helvetica Neue, Helvetica, sans-serif;
 }
 
